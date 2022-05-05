@@ -5,6 +5,7 @@ import React from 'react';
 class App extends React.Component {
   constructor(props){
     super();
+    //Version 1 added
      this.state = {Frequency:100,Name:''};
 //we need to bind every function that is defined.So after creating setVal function I have done this.
      this.setval = this.setval.bind(this);
